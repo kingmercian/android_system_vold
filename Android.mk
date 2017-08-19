@@ -56,7 +56,7 @@ common_libraries := \
 	libdiskconfig \
 	liblogwrap \
 	libf2fs_sparseblock \
-	libcrypto_utils \
+	#libcrypto_utils \
 	libselinux \
 	libutils
 
@@ -83,6 +83,7 @@ common_static_libraries := \
 	libbatteryservice \
 	libext2_blkid \
 	libext2_uuid_static \
+	libmincrypt  \
 	libz
 
 vold_conlyflags := -std=c11
